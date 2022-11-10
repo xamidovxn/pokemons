@@ -1,0 +1,59 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: all 0.7s linear;
+}
+
+.container {
+   width: 1120px;
+}
+
+body {
+   overflow-x: hidden;
+   background-color: #FFD845;
+}
+
+.logo {
+   margin-left: 25%;
+}
+
+select {
+   margin: 0 130px 0 25px;
+   height: 50px;
+   border-radius: 10px;
+}
+
+input {
+   margin-right: 130px;
+   height: 50px;
+   border-radius: 10px;
+}
+
+button {
+   border: none;
+   width: 150px;
+   height: 50px;
+}
+
+.select__div {
+   margin: 70px 0 100px 0;
+}
+
+.like {
+   position: absolute;
+   right: 120px;
+   top: 25px;
+}
+
+.swipe {
+   transform: translateX(300%);
+}
+
+.save {
+   position: absolute;
+   background-color: #FFEDA9;
+   width: 300px;
+   right: 0;
+   z-index: 9999;
+}
